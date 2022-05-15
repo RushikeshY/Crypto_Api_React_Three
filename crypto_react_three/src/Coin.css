@@ -1,73 +1,70 @@
-.coin-container{
-    display: flex;
-    justify-content: center;
-    /* padding: 5px; */
-}
-.coin-row{
-    display: flex;
-    flex-direction: row;
-    justify-items: start;
-    align-items: center;
-    height: 80px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-    width: 100%;
-}
-.coin{
-    display: flex;
-    align-items: center;
-    padding-right: 24px;
-    min-width: 390px;
-}
-
-.coin h1{
-    font-size: 16px;
-    width: 150px;
+.coin-container {
+  display: flex;
+  justify-content: center;
 
 }
+.coin-row {
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  width: 100%;
+}
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 390px;
+}
 
-.coin-symbol{
-    text-transform: uppercase;
-    /* padding-left: 160px; */
-}
-.coin-data{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    width: 100%;
+.coin h1 {
+  font-size: 16px;
+  width: 150px;
 }
 
-.coin-price{
-    width: 110px;
-    margin-top:10px
+.coin-symbol {
+  text-transform: uppercase;
+  /* padding-left: 160px; */
 }
-.coin-volume{
-    width: 200px;
-    margin-left:80px;
-    margin-top:10px
+.coin-data {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
 
+.coin-price {
+  width: 110px;
+  margin-top: 10px;
 }
-.coin-marketcap{
-    width: 240px;
- 
+.coin-volume {
+  width: 200px;
+  margin-left: 80px;
+  margin-top: 10px;
 }
-.coin-percent{
-    width: 80%;
+.coin-marketcap {
+  width: 240px;
 }
-.red{
-    color: rgb(255, 65, 65);
-    padding: 10px;
-    font-size: 18px;
+.coin-percent {
+  width: 80%;
 }
-.green{
-    color: green;
-    padding: 10px;
+.red {
+  color: rgb(255, 65, 65);
+  padding: 10px;
+  font-size: 18px;
 }
-.coin-img{
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
+.green {
+  color: green;
+  padding: 10px;
 }
-.coin-name{
-    font-size: 16px;
-    width: 150px;
+.coin-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.coin-name {
+  font-size: 16px;
+  width: 150px;
 }
